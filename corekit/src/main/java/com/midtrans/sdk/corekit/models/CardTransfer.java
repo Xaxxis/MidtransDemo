@@ -17,12 +17,6 @@ public class CardTransfer extends TransactionModel {
 
     public static final String PAYMENT_TYPE = Constants.PAYMENT_CREDIT_DEBIT;
 
-    /**
-     * { "payment_type":"credit_card", "credit_card":{ "token_id":"481111-1114-7fd8c06e-a612-4f0b-a6d4-4fa2b8918c39",
-     * "bank": "bni", "save_token_id":"true" }, "transaction_details":{ "gross_amount":10000,
-     * "order_id":"10938033" } }
-     */
-
 
     @SerializedName("credit_card")
     private CardPaymentDetails cardPaymentDetails;

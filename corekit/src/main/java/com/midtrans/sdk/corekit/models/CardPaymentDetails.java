@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class CardPaymentDetails {
     /**
-     * bank : bni token_id : 481111-1114-7fd8c06e-a612-4f0b-a6d4-4fa2b8918c39 save_token_id : true
+     * bank : bni token_id :  save_token_id : true
      */
 
     private String bank;

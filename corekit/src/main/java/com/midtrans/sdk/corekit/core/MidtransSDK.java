@@ -338,11 +338,9 @@ public class MidtransSDK {
             if (Utils.isNetworkAvailable(context)) {
                 midtransServiceManager.getToken(cardTokenRequest, callback);
             } else {
-
                 callback.onError(new Throwable(Constants.MESSAGE_ERROR_FAILED_TO_CONNECT_TO_SERVER));
                 Logger.e(Constants.MESSAGE_ERROR_FAILED_TO_CONNECT_TO_SERVER);
             }
-
         } else {
             Logger.e(Constants.MESSAGE_ERROR_INVALID_DATA_SUPPLIED);
 

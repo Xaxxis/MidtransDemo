@@ -42,8 +42,8 @@ android {
             dimension "midtrans"
             applicationId "com.midtrans.sdk.demo.development"
             resValue "string", "app_name", "Midtrans Demo Dev"
-            buildConfigField "String", "BASE_URL", "\"http://42101fe0.ngrok.io/\""
-            buildConfigField "String", "CLIENT_KEY", "\"SB-Mid-client-I4ekVNAD4Cr4KJ1V\""
+            buildConfigField "String", "BASE_URL", "\"https://midtrans-java.herokuapp.com/\""
+            buildConfigField "String", "CLIENT_KEY", "\"SB-Mid-client-nKsqvar5cn60u2Lv\""
         }
 
         production {
@@ -51,7 +51,7 @@ android {
             applicationId "com.midtrans.sdk.demo"
             resValue "string", "app_name", "Midtrans Demo"
             buildConfigField "String", "BASE_URL", "\"http://42101fe0.ngrok.io/\""
-            buildConfigField "String", "CLIENT_KEY", "\"SB-Mid-client-I4ekVNAD4Cr4KJ1V\""
+            buildConfigField "String", "CLIENT_KEY", "\"SB-Mid-client-nKsqvar5cn60u2Lv\""
         }
 
         uat {
@@ -59,7 +59,7 @@ android {
             applicationId "com.midtrans.sdk.demo.uat"
             resValue "string", "app_name", "Midtrans uat dev"
             buildConfigField "String", "BASE_URL", "\"http://42101fe0.ngrok.io/\""
-            buildConfigField "String", "CLIENT_KEY", "\"SB-Mid-client-I4ekVNAD4Cr4KJ1V\""
+            buildConfigField "String", "CLIENT_KEY", "\"SB-Mid-client-nKsqvar5cn60u2Lv\""
         }
     }
 }

@@ -90,7 +90,7 @@ public class SnapServiceManagerTest {
     private Resources resourcesMock;
     private MidtransSDK midtransSDK;
 
-    private String snapToken = "aa3afad7-a346-4db6-9cb3-737f24e4fc56";
+    private String snapToken = "";
 
     @Mock
     private CertPathValidatorException errorInvalidCertPatMock;
